@@ -1,0 +1,33 @@
+{
+  "name": "plex-name",
+  "date": "2015.05.26",
+  "version": "1.5.10",
+  "description": "PL",
+  "author": {
+    "name": "plexname"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plexname/plex-name.git"
+  },
+  "config": {
+    "type": "app",
+    "category": "apps",
+    "backgroundColor": "#056839",
+    "name": "PlexName",
+    "legacy": true,
+    "description": "Test App",
+    "icons": {
+      "paths": {
+        "480": "img/480/",
+        "576": "img/576/",
+        "720": "img/720/",
+        "1080": "img/1080/"
+      },
+      "states": {
+        "normal": "normal.png",
+        "active": "active.png"
+      }
+    }
+  }
+}
